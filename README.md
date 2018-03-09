@@ -1,11 +1,12 @@
 # MaskRcnn_DSB2018
+Version for Nvidia P100
 
 ## Install Nvidia Drivers
 ### Nvidia driver r390
 ```
-dpkg -i nvidia-diag-driver-local-repo-ubuntu1604-390.30_1.0-1_amd64.deb
-apt-get update
-apt-get install cuda-drivers 
+sudo dpkg -i nvidia-diag-driver-local-repo-ubuntu1604-390.30_1.0-1_amd64.deb
+sudo apt-get update
+sudo apt-get install cuda-drivers 
 reboot
 ```
 ### Cuda 9.1
